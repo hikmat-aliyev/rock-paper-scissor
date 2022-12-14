@@ -111,4 +111,11 @@ p {
     font-size: 50px;
     color: antiquewhite;
     text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: antiquewhite;  
 }
