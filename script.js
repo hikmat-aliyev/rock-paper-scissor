@@ -121,24 +121,24 @@ function playRound (playerSelection, computerSelection) {
 buttons.forEach(button => button.addEventListener("click", function(){
     let playerImage = document.getElementById("playerImage");
     if (playerSelection.toUpperCase() === "ROCK") {
-        playerImage.src = "rock.png"
+        playerImage.src = "images/rock.png"
     }
     else if (playerSelection.toUpperCase() === "PAPER") {
-        playerImage.src = "paper.png"
+        playerImage.src = "images/paper.png"
     }
     else if (playerSelection.toUpperCase() === "SCISSOR") {
-        playerImage.src = "scissor.png"
+        playerImage.src = "images/scissor.png"
     }
 
     let computerImage = document.getElementById("computerImage");
     if (computerSelection === "Rock") {
-       computerImage.src = "rock.png"
+       computerImage.src = "images/rock.png"
     }
     else if (computerSelection === "Paper") {
-        computerImage.src = "paper.png"
+        computerImage.src = "images/paper.png"
     }
     else if (computerSelection === "Scissor") {
-        computerImage.src = "scissor.png"
+        computerImage.src = "images/scissor.png"
     }
 }));
 
@@ -148,8 +148,8 @@ buttons.forEach(button => button.addEventListener("click", function(){
     document.getElementById("computerScore").textContent = `Computer:${computerScore}`  
 }));
 
-const audio = new Audio("click.mp3");
-const gameOverAudio = new Audio("gameover.mp3")
+const audio = new Audio("audio/click.mp3");
+const gameOverAudio = new Audio("audio/gameover.mp3")
 //playing button sounds and game over sound
 buttons.forEach(button => {
     button.addEventListener("click", () => {

@@ -38,16 +38,16 @@ h1 {
 }
 
 .btn.rock {
-    background-image: url("rock.png");
+    background-image: url("images/rock.png");
 }
 
 
 .btn.paper  {
-    background-image: url("paper.png");
+    background-image: url("images/paper.png");
 }
 
 .btn.scissor  {
-    background-image: url("scissor.png");
+    background-image: url("images/scissor.png");
 }
 
 .btn {
